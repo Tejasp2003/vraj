@@ -1,0 +1,172 @@
+/* Nunito font import */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+
+.rajasthani_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.rajasthani_title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--black-1);
+  margin-bottom: 4rem;
+  margin-top: -20px;
+}
+
+.rajasthani_items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.rajasthani_item {
+    background-color: rgba(208, 250, 210, 0.089);
+  padding: 10px;
+  text-align: center;
+  text-align: center;
+  border-radius: 20px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 320px;
+  overflow: hidden;
+  border: 3px solid rgb(3, 3, 54);
+}
+
+.rajasthani_item:hover{
+    background-color: rgba(255, 166, 0, 0.5);
+    transform: scale(0.9);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border: 3px solid rgb(3, 3, 54);
+}
+
+.rajasthani_item_img{
+    
+   
+    
+    margin: 10px;
+    
+   
+}
+.rajasthani_item_img img{
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 2px solid rgb(3, 3, 54);
+}
+
+.rajasthani_item_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
+    font-family: Nunito, sans-serif;
+    width: 400px;
+
+}
+
+.rajasthani_item_info h3 {
+  font-family: Nunito, sans-serif;
+  font-size: 28px;
+  gap: 8rem;
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+ span{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(3, 3, 54);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Nunito, sans-serif;
+    width: 100px;
+}
+
+.rajasthani_item_info p {
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  font-size: 14px !important;
+}
+.vslogo {
+  width: 100px;
+  height: 90px;
+  object-fit: cover;
+  margin-top: -25px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content {
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 16px;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgba(255, 166, 0, 0.233);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: orange;
+  border-radius: 10px;
+  color: white;
+}
+
+
+.footer_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
